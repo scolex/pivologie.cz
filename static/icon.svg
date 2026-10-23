@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- pivologie, the science of beer: a lab beaker of lager, measured to the mark, with a proper head -->
+  <defs>
+    <path id="beaker" d="M62 66Q76 70 80 84V194Q80 210 96 210H160Q176 210 176 194V82Q176 72 188 66Z"/>
+    <clipPath id="inside"><use href="#beaker"/></clipPath>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="#3b2a1e"/>
+  <g clip-path="url(#inside)">
+    <rect x="50" y="102" width="150" height="120" fill="#e9a23b"/>
+    <circle cx="104" cy="182" r="6" fill="#f6d28b"/>
+    <circle cx="126" cy="148" r="5" fill="#f6d28b"/>
+  </g>
+  <use href="#beaker" fill="none" stroke="#fdfcf9" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M152 130h24M162 156h14M152 182h24" stroke="#fdfcf9" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#fdfcf9">
+    <circle cx="94" cy="80" r="18"/>
+    <circle cx="122" cy="64" r="22"/>
+    <circle cx="152" cy="68" r="20"/>
+    <circle cx="170" cy="86" r="12"/>
+    <rect x="84" y="78" width="90" height="28" rx="4"/>
+  </g>
+</svg>

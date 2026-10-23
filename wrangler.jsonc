@@ -1,0 +1,10 @@
+// pivologie.cz as a Worker that only serves files. build.sh has hrabal write the site into public/,
+// Cloudflare serves it from there, and hrabal's 404.html answers addresses that don't exist.
+{
+  "name": "pivologie",
+  "compatibility_date": "2026-10-23",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
