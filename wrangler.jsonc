@@ -1,10 +1,15 @@
 // pivologie.cz as a Worker that only serves files. build.sh has hrabal write the site into public/,
 // Cloudflare serves it from there, and hrabal's 404.html answers addresses that don't exist.
 {
-  "name": "pivologie",
+  // the name Workers Builds knows the project by, a different one here makes it open a pull request
+  "name": "pivologie-cz",
   "compatibility_date": "2026-10-23",
   "assets": {
     "directory": "./public",
     "not_found_handling": "404-page"
-  }
+  },
+  // pivologie-cz.scolex-cz.workers.dev, the way in until pivologie.cz points here
+  "workers_dev": true,
+  // a preview of every branch, its links lead to pivologie.cz though, base_url says so
+  "preview_urls": true
 }
